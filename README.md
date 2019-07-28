@@ -1,31 +1,3 @@
-Personal Journal App
+Journal App
 
-Create a terminal application to store personal journal log with user management, to be run locally and not on cloud. For simplicity consider you could enter only textual content in journal data. 
-
-Terminologies
-
-User : An independent entity with access to its own journal. Data should not be shared between users.
-Journal : A text log containing multiple entries.
-Journal Entry : A piece for text accompanied by a timestamp 
-
-Features required
-
-User Management: On starting the application the user should be presented with either Login or Sign Up options. On Sign Up Do not ask for a password again
-Journal Management: After authentication, the user should be presented with two options to either list all his previous entries or create a new entry. Maximum 50 Journal entries should be allowed per user. Newer entry after 50 should replace the oldest entry(like a queue).
-While showing previous entries each entry should be preceded by time in readable format and data followed by the text input 
-Eg.
-25 Jun 2019 10.30pm - Some text that the user entered
-23 Jun 2019 10.00am - Some text that user entered
-
-The application should run locally on a terminal and store data on files locally but not in any database (hosted locally including authentication data). The application should support multiple account creation up to 10 accounts.
-
-Tech Specifications
-
-The app should run in terminal. No GUI can be used. The application should only be able to take input via keyboard
-User should not be able to read journals written by the software by looking at the files through explorers or any other software
-Do not use database for storing data, use files to store all your user data 
-Build your code in Go, python or PHP
-
-Submit your application code in a zip which contains all the resources required. Please add a readme.txt file to tell us how to run your application 
-
-PS: Bonus points if you send us unit/functional tests with your code
+Create an application to store and manage journal 

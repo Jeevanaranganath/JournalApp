@@ -1,0 +1,20 @@
+Journal App
+
+Create an application to store and manage journal
+
+Terminologies
+
+User : An independent entity with access to its own journal. Data should not be shared between users.
+Journal : A text log containing multiple entries.
+Journal Entry : A piece for text accompanied by a timestamp
+
+Features required
+
+User Management: On starting the application the user should be presented with either Login or Sign Up options. On Sign Up Do not ask for a password again
+
+Journal Management: After authentication, the user should be presented with two options to either list all his previous entries or create a new entry. Maximum 50 Journal entries should be allowed per user. Newer entry after 50 should replace the oldest entry(like a queue).
+While showing previous entries each entry should be preceded by time in readable format and data followed by the text input
+
+
+
+
